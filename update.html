@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/4ea38d57d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">about</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>Full-stack developer</p>
+            <h2>Hi, <span>Zamzam</span> A full-stack dev</h2>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Official photo (1).jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Highly skilled Python Developer specializing in backend web development with a strong focus on Django and creating RESTful APIs
+                        using Django Rest Framework (DRF). Experienced in data analysis and proficient in SQL, demonstrating a well-rounded skill set.
+                        Results-driven and motivated individual with a passion for technology and an ambition to make a positive impact on the world. Eager
+                        to gain additional skills and experience in the software engineering field, constantly seeking opportunities for growth and innovation.
+                        A fast learner who thrives in challenging environments and is dedicated to professional development.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>API DEVELEOPMENT</span><br> Developing api's  using django rest framework</li>
+                            <li><span>WEB DEVELOPER</span><br> Developing webs apps using django</li>
+                            <li><span>DATA ANALYST</span><br> Data analysis using python</li>
+                            <li><span>BACKEND DEVELOPER</span><br> Developing backend apps using node js and django</li>
+                            <li><span>OTHER</span><br>SQL, Database management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>TUNT</span> <span> 2023-present</span><br>TUNT Backend developer.Developing apis for the TUNT application</li>
+                            <li><span> MINISTRY Of ICT 2022</span><br>Worked as aan IT support.Managed network infrastructure in the organization</li>
+                            <li> <span>GAMEZONE REPAIRS AND MAINTENANCE 2023-PRESENT</span><br>Worked as an IT consultant.Maintained and repaired computer software and hardware</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>COMPUTER SCIENCE</span><span> 2019-2023</span> <br>The Cooperative university of kenya  </li>
+                            <li><span>DATA ANALYSIS</span> <span> 2023</span><br>Alx Udacity </li>
+                            <li><span>INTERNATIONAL DIGITAL COMPUTER LITERACY</span> <span> 2019</span><br>East African Institute of Certified studies</li>
+                            <li><span>KCSE</span> <span> 2014-2018</span> <br>The Nyahururu High school</li>
+                            <li><span>KCPE</span> <span>2006-2014</span> <br>Fairlwans Primary School</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projects -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="./Official photo (1).jpeg" alt="">
+                    <div class="layer">
+                        <h3>Attachee management system</h3>
+                        <p>The Attaché Management System is a web application built using the Django framework, designed to streamline and automate the management of attachés within an organization. This system provides a centralized platform for managing attaché profiles, assignments, and related information efficiently.</p>
+                        <a href="https://github.com/mark-kibo/REPORT-GENERATOR-FOR--SUPERVISORS/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Official photo (1).jpeg" alt="">
+                    <div class="layer">
+                        <h3>Parking reservation system</h3>
+                        <p>A parking reservation system created using Django is a web application that allows users to reserve parking spaces in advance. It provides a convenient and efficient way for users to secure parking spots, eliminating the hassle of searching for parking upon arrival.</p>
+                        <a href="https://github.com/mark-kibo/reservespace"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Official photo (1).jpeg" alt="">
+                    <div class="layer">
+                        <h3>Art gallery management system</h3>
+                        <p>An art gallery management system is a software application designed to streamline and automate various tasks involved in the management of an art gallery. It provides a centralized platform to efficiently manage the gallery's operations, including artwork inventory, artist information, sales, exhibitions, and customer interactions. Here is a description of the key features and functionalities typically found in an art gallery management system</p>
+                        <a href="https://github.com/mark-kibo/artgallery_with_django"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="https://github.com/mark-kibo" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- contact -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-col-1">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>kibochamark@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+25476347882</p>
+                    <div class="social-links">
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="./documents/Curriculum Vitae - Mark Kibocha.pdf"  class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-col-2">
+                    <form action="">
+                        <input type="text" name="name" placeholder="name" required>
+                        <input type="email" name="email" id="" placeholder="your email">
+                        <textarea name="message"   rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        
+        </div>
+        <div id="copyright">
+            <p>copyright <i class="fa-solid fa-copyright"></i> Zamzam Bonaya designs</p>
+        </div>
+    </div>
+ 
+    <script>
+        var tablinks= document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        const opentab =(tabname)=>{
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');
+            } 
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }  
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+    </script>
+</body>
+</html>
